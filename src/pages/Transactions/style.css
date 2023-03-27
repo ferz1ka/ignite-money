@@ -1,0 +1,39 @@
+.table-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 1.5rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+.table-container table td {
+  padding: 1.25rem 2rem;
+  background: var(--gray-700);
+
+  font-size: 1rem;
+  line-height: 160%;
+  color: var(--gray-300);
+}
+
+.table-container table td[data-transaction-type="income"] {
+  color: var(--green-300);
+}
+
+.table-container table td[data-transaction-type="outcome"] {
+  color: var(--red-300);
+}
+
+.table-container table td:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.table-container table td:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}

@@ -1,0 +1,50 @@
+.summary-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: ; */
+  gap: 2rem;
+
+  margin-top: -5rem;
+}
+
+.summary-item {
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.summary-item header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summary-item header span {
+  font-size: 1rem;
+  line-height: 160%;
+  color: var(--gray-300);
+}
+
+.summary-item strong {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 140%;
+  color: var(--gray-100);
+}
+
+.summary-income,
+.summary-outcome {
+  background: var(--gray-600);
+}
+
+.summary-total {
+  background: var(--green-700);
+}

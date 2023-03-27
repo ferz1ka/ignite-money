@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2023-03-22T11:20:35.654Z"
+    },
+    {
+      "id": 2,
+      "description": "Almoço",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 59,
+      "createdAt": "2023-03-23T11:20:35.654Z"
+    },
+    {
+      "id": 3,
+      "description": "Aluguel do apartamento",
+      "type": "outcome",
+      "category": "Casa",
+      "price": 1200,
+      "createdAt": "2023-03-23T11:20:35.654Z"
+    },
+    {
+      "id": 4,
+      "description": "Computador",
+      "type": "income",
+      "category": "Venda",
+      "price": 5400,
+      "createdAt": "2023-03-25T11:20:35.654Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 6000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-03-27T14:03:02.649Z",
+      "id": 5
+    },
+    {
+      "description": "Luz e água",
+      "price": 290,
+      "category": "Casa",
+      "type": "outcome",
+      "createdAt": "2023-03-27T14:04:15.998Z",
+      "id": 6
+    },
+    {
+      "description": "Telefone",
+      "price": 49,
+      "category": "Casa",
+      "type": "outcome",
+      "createdAt": "2023-03-27T14:16:32.486Z",
+      "id": 7
+    }
+  ]
+}
