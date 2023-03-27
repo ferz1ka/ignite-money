@@ -1,4 +1,5 @@
 # Ignite Money
+<img width="100%" src="src/assets/samples/1.png">
 
 ### Dependências
 * vite
@@ -7,7 +8,7 @@
 * react-hook-form
 * zod
 
-<p align="center">
-  <img width="617" height="350" src="src/assets/samples/1.png">
+<!-- <p align="center">
+  
   <img width="617" height="350" src="src/assets/samples/2.png">
-</p>
+</p> -->
