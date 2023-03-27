@@ -8,7 +8,4 @@
 * react-hook-form
 * zod
 
-<!-- <p align="center">
-  
-  <img width="617" height="350" src="src/assets/samples/2.png">
-</p> -->
+<img width="50%" height="150" src="src/assets/samples/2.png">
