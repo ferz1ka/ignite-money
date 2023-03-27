@@ -7,5 +7,3 @@
 * json-server
 * react-hook-form
 * zod
-
-<img width="50%" height="150" src="src/assets/samples/2.png">
